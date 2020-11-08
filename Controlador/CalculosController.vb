@@ -8,7 +8,7 @@ Public Class Calculos
     Private _cuota As Double
     Private _interes As Double
     Private _amortizacion As Double
-    Private _saldo As Double
+    Private _saldo As String
 
     'Propiedades
 

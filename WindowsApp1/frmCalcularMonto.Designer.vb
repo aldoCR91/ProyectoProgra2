@@ -213,7 +213,7 @@ Partial Class frmCalcularMonto
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.WindowsApp1.My.Resources.Resources.descarga_1_
+        Me.BackgroundImage = Global.WindowsApp1.My.Resources.Resources.image
         Me.ClientSize = New System.Drawing.Size(853, 450)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txtMostrarCuota)

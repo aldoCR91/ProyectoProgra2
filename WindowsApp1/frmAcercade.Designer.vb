@@ -81,9 +81,9 @@ Partial Class frmAcercade
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(271, 172)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(131, 24)
+        Me.Label1.Size = New System.Drawing.Size(143, 24)
         Me.Label1.TabIndex = 7
-        Me.Label1.Text = "Aldo Burgos "
+        Me.Label1.Text = "Aldo Burgos!!!"
         '
         'lbNombre
         '

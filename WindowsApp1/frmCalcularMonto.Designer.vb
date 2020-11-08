@@ -49,10 +49,10 @@ Partial Class frmCalcularMonto
         Me.DataGridViewTabla.AllowUserToDeleteRows = False
         Me.DataGridViewTabla.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridViewTabla.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.colCuota, Me.colMensualidad, Me.colIntereses, Me.colAmortizacion, Me.colSaldo})
-        Me.DataGridViewTabla.Location = New System.Drawing.Point(3, 233)
+        Me.DataGridViewTabla.Location = New System.Drawing.Point(111, 221)
         Me.DataGridViewTabla.Name = "DataGridViewTabla"
         Me.DataGridViewTabla.ReadOnly = True
-        Me.DataGridViewTabla.Size = New System.Drawing.Size(574, 205)
+        Me.DataGridViewTabla.Size = New System.Drawing.Size(586, 205)
         Me.DataGridViewTabla.TabIndex = 21
         '
         'colCuota
@@ -87,7 +87,7 @@ Partial Class frmCalcularMonto
         '
         'btnGenerarAmortizacion
         '
-        Me.btnGenerarAmortizacion.Location = New System.Drawing.Point(727, 281)
+        Me.btnGenerarAmortizacion.Location = New System.Drawing.Point(698, 178)
         Me.btnGenerarAmortizacion.Name = "btnGenerarAmortizacion"
         Me.btnGenerarAmortizacion.Size = New System.Drawing.Size(75, 35)
         Me.btnGenerarAmortizacion.TabIndex = 20
@@ -119,7 +119,7 @@ Partial Class frmCalcularMonto
         'btCalcular
         '
         Me.btCalcular.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btCalcular.Location = New System.Drawing.Point(634, 281)
+        Me.btCalcular.Location = New System.Drawing.Point(601, 178)
         Me.btCalcular.Name = "btCalcular"
         Me.btCalcular.Size = New System.Drawing.Size(75, 35)
         Me.btCalcular.TabIndex = 17
@@ -191,7 +191,7 @@ Partial Class frmCalcularMonto
         '
         'txtMostrarCuota
         '
-        Me.txtMostrarCuota.Location = New System.Drawing.Point(659, 179)
+        Me.txtMostrarCuota.Location = New System.Drawing.Point(443, 187)
         Me.txtMostrarCuota.Name = "txtMostrarCuota"
         Me.txtMostrarCuota.ReadOnly = True
         Me.txtMostrarCuota.Size = New System.Drawing.Size(121, 20)
@@ -203,7 +203,7 @@ Partial Class frmCalcularMonto
         Me.Label1.BackColor = System.Drawing.Color.Turquoise
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.MediumBlue
-        Me.Label1.Location = New System.Drawing.Point(439, 179)
+        Me.Label1.Location = New System.Drawing.Point(222, 185)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(192, 20)
         Me.Label1.TabIndex = 25
@@ -214,7 +214,7 @@ Partial Class frmCalcularMonto
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.WindowsApp1.My.Resources.Resources.image
-        Me.ClientSize = New System.Drawing.Size(853, 450)
+        Me.ClientSize = New System.Drawing.Size(786, 450)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txtMostrarCuota)
         Me.Controls.Add(Me.txtMeses)

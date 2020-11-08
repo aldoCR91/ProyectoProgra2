@@ -102,8 +102,8 @@ Partial Class frmAcercade
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.WindowsApp1.My.Resources.Resources.descarga
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.BackgroundImage = Global.WindowsApp1.My.Resources.Resources.image1
+        Me.ClientSize = New System.Drawing.Size(426, 423)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)

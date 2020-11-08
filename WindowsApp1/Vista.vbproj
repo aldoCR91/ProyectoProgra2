@@ -136,6 +136,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmAcercade.resx">
+      <DependentUpon>frmAcercade.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmCalcularMonto.resx">
       <DependentUpon>frmCalcularMonto.vb</DependentUpon>
     </EmbeddedResource>
@@ -169,6 +172,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
